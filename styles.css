@@ -1,3 +1,48 @@
-.list-title {
-  background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+/* Font Family */
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* Font Family */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Components */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  background-color: #FFF8F3;
+  line-height: 2;
+  padding: 10%;
+}
+
+.Lists h2 {
+  margin-bottom: 8px;
+}
+
+.list {
+  display: inline-block;
+  width: 25rem;
+}
+
+.listitem {
+  display: inline-block;
+}
+
+.title {
+  background-color: #A3E4DB;
+  text-align: center;
 }
